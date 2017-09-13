@@ -3,6 +3,7 @@ notifications:
     - travis-ci@pimcore.org
 
 sudo: false
+dist: trusty
 language: php
 
 php:
