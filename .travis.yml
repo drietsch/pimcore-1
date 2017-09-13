@@ -47,6 +47,7 @@ env:
     - PIMCORE_TEST_CACHE_REDIS_DATABASE=1
 
 before_install:
+  - echo $TRAVIS_SUDO
   - mysql --version
   - mysql -e "CREATE DATABASE pimcore_test;"
 
